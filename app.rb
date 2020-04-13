@@ -1,8 +1,12 @@
-require_relative './test'
-AVERAGE_HEIGHT_IN_INCHES = 67
+name = "Sam"
 
-# Your Code Here!
+age = 21
 
-## Do not modify below this line!
+favorite_food = "Nachos"
 
-output(name, age, favorite_food, height_message)
+height_in_inches = 72
+
+height message = height_in_inches ? "You are taller than average" : "You are not taller than average"
+
+
+
